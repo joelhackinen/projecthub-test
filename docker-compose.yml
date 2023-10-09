@@ -18,6 +18,7 @@ services:
       dockerfile: Dockerfile.dev
     volumes:
       - ./react-app/:/usr/src/app
+      - ./react-app/node_modules/:/usr/src/app/node_modules
     ports:
       - '3000:3000'
     container_name: react-app-dev
