@@ -1,9 +1,11 @@
-FROM node:16.17.0-bullseye-slim
+FROM node:16
 
 WORKDIR /usr/src/app
 
-COPY . /usr/src/app/
+COPY ./package.json ./yarn.lock ./
 
 RUN yarn
+
+COPY . .
 
 CMD ["yarn", "dev"]
