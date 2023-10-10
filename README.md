@@ -1,6 +1,6 @@
 ### How to start
-1. `git clone https://github.com/joelhackinen/projecthub.git`
-2. `cd projecthub`
+1. `git clone https://github.com/joelhackinen/projecthub-test.git`
+2. `cd projecthub-test`
 
 #### in development mode
 3. `cd react-app && yarn` (needed only when launching for the first time after cloning/pulling)
